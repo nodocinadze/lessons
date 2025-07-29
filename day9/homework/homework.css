@@ -1,0 +1,25 @@
+.scroll-effect {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.scroll-effect.visible {
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.animated-text {
+    animation: slideIn 1s ease-out;
+}
+
+p {
+    text-align: center;
+}
