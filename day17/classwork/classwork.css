@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+header {
+    background: #ffffff ;
+    color: #006ab1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: #006ab1;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.posts {
+    background-color: #006ab1;
+    padding: 15px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+button {
+    background: #ffffff;
+    color: #006ab1;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #c2c2c2;
+}
+
+#feed {
+    width: 50%;
+    margin: auto;
+}
+#post {
+    background-color: #ffffff;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0 0 2px grey;
+}
+
+footer {
+    background: #ffffff;
+    color: #006ab1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#friends {
+    width: 20%;
+    background: #ffffff ;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 8px;
+    box-shadow: 0  0  1px;
+}
+
+#messages {
+    width: 20%;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 1px;
+}
+
+#messages h2, #friends h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #006ab1;
+}
+
+#friends ul, #messages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}

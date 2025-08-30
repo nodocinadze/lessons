@@ -1,0 +1,24 @@
+/*background*/
+h1 {
+    background: linear-gradient(to bottom, #ff0000, #0000ff);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}   
+
+#box1 {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: #00f7ff;
+}
+
+#box2 {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+    
+}
+
