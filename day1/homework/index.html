@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+      color: blue;
+      font-size: 18px;
+    }
+  </style>
+
+<body>
+    <!-- შეგიძლია პირდაპირ HTML ელემენტზე მიუთითო სტილი, ცალკე ფაილის გარეშე -->
+<p style="color: blue;">ეს ტექსტი მარტივად არის გაფორმებული.</p>
+
+<!-- როცა გინდა სწრაფად გადაამოწმო როგორ გამოიყურება რაღაც, Inline CSS მოსახერხებელია -->
+<p style="background: yellow;">ტესტის ტექსტი</p>
+
+<!-- შეგიძლია ზუსტად ერთ ელემენტზე იმოქმედო, სხვებზე არა -->
+<h1 style="text-align: center;">მთავარი სათაური</h1>
+
+<!-- თუ ერთსა და იმავე სტილს ბევრგან იყენებ, ყოველ ჯერზე ხელით უნდა შეცვალო -->
+<p style="color: green;">ტექსტი 1</p>
+<p style="color: green;">ტექსტი 2</p>
+
+<!-- Internal CSS
+     - სტილები ჩაწერილია <style> ტეგში
+     - მოქმედებს დოკუმენტის ყველა იმ ელემენტზე, რომელიც შესაბამის სელექტორს ემთხვევა (მაგ. ყველა <p>)
+     - უფრო მოწესრიგებული სტრუქტურაა ვიდრე inline CSS -->
+<h1>ეს ტექსტი Internal CSS-ით არის გაფორმებული.</h1>
+
+<!-- inline CSS 
+     - "style" ატრიბუტი პირდაპირ ელემენტზე წერია
+     - მუშაობს მხოლოდ ამ ერთ კონკრეტულ <p> ტეგზე
+     - არ იყენებს <style> ბლოკს ან გარე ფაილს -->
+<p style="color: red; font-size: 18px;">ეს არის Inline CSS-ით გაფორმებული ტექსტი.</p>
+
+
+
+
+
+
+
+</body>
+</html>
