@@ -1,0 +1,35 @@
+/* task 1-2 */
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-image: url('BcG7wj.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+/* task 3: transform property გამოყენებით შეგვიძლია პოზიციის შეცვლა (translate), გაზრდა შემცირება (scale), დატრიალება (rotate) */
+
+/* task 4 translate */
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transform: translateX(100px);
+}
+
+/* task 5 scale */
+.box3 {
+    width: 150px;
+    height: 150px;
+    background: lightgreen;
+    transform: scale(0.5);
+}
+/* task 6 rotate */
+.box4 {
+    width: 100px;
+    height: 100px;
+    background: lightcoral;
+    transform: rotate(90deg);
+}

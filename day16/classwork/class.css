@@ -1,0 +1,73 @@
+/* 1.ანიმაცია CSS-სში ელემენტის მდგომარეობის შეცვლას დროის რაგაც დროის განმავლობაში.
+მაგ:გადაადგილება, ფერის შეცვლა, ზომის გაზრდა, დატრიალება და ა.შ
+და ანიმაცია ავტომატურად მუშაობს */
+
+/* 2.transition მარტივია აქვს მხოლოდ დასაწყისი და დასასრული
+     keyframes გვაძლევს საშვალებას გავაკეტოტ ანიმაცია ყველაფერზე 
+     
+     transition მარტივი ეფექტისთვის (hover) 
+     keyframes რთული და მრავალფეროვანი ანიმაციებისთვის 
+     */
+
+
+/* 3.keyframes  */
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: infinite;
+    animation-name: cubeMove;
+    animation-duration: 5s;
+}
+
+@keyframes cubeMove {
+    0%{
+        background-color: red;
+        width: 20px;
+        height: 20px;
+    }
+    25%{
+        background-color: blue;
+        width: 40px;
+        height: 40px;
+    }
+    50%{
+        background-color: green;
+        width: 60px;
+        height: 60px;
+    }
+    75%{
+        background-color: yellow;
+        width: 80px;
+        height: 80px;
+    }
+    100%{
+        background-color: red;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    border-radius: 50%;
+    animation: infinite;
+    animation-duration: 5s;
+    animation-name: circleMove;
+    margin-top: 100px;
+}
+
+@keyframes circleMove {
+    from{
+        color: purple;
+        width: 80px;
+        height: 80px;
+    }
+    to{
+        color: orange;
+        width: 150px;
+        height: 150px;
+    }
+}
